@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>#!/usr/bin/env bash
+
+[[ -n "$TM_SPSS" ]] || TM_SPSS="/Applications/SPSS/SPSSStatistics.app/Contents/MacOS/stats"
+
+echo "$TM_SPSS"
+FLAGS="--nologo"
+"$TM_SPSS" $FLAGS "$TM_FILEPATH" &amp;&gt;/dev/null &amp;</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^L</string>
+	<key>name</key>
+	<string>Load in SPSS</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>source.spss</string>
+	<key>uuid</key>
+	<string>D240F18F-FDAA-4B8E-9E28-265803A3C697</string>
+</dict>
+</plist>

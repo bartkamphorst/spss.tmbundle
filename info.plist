@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>SPSS</string>
+	<key>ordering</key>
+	<array>
+		<string>EAB73C47-D787-4A88-B966-2454C62EF09A</string>
+		<string>D4884122-E7DC-4A73-9F37-D1556E5CD516</string>
+		<string>029F6980-5FF1-40DC-9B79-E9A1156B1CB8</string>
+		<string>D240F18F-FDAA-4B8E-9E28-265803A3C697</string>
+	</array>
+	<key>uuid</key>
+	<string>914C5ECA-B0B2-42F3-BA9C-7C47CA8F08AD</string>
+</dict>
+</plist>
